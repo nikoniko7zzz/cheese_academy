@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>チーズアカデミー</title>
     <meta name="description" content=“世界を変えるチーズを作ろう。チーズアカデミーは、チーズ職人を養成するための学校です。”>
@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/sanitize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen and (min-width:641px)" href="css/reset.css" /> -->
     <!-- あらかじめcssを読み込んでいるので設定しなくてOK-->
     <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico"><!-- Favicon Generatorで制作する -->
@@ -33,8 +34,16 @@
         <div class="logo">
             <a href="#"><img src="img/header_logo.png" alt="logo"></a>
         </div>
-        <div class="index">
-            <nav>
+
+        <nav>
+            <!-- ハンバーガーメニュー -->
+            <!-- <div class="hamburger_menu">
+                <div class="hamburger_menu_1"></div>
+                <div class="hamburger_menu_2"></div>
+                <div class="hamburger_menu_3"></div>
+            </div> -->
+
+            <div class="index">
                 <ul class="list">
                     <li><a href="#ABOUT">ABOUT</a></li>
                     <li><a href="#COURSE">COURSE</a></li>
@@ -42,16 +51,48 @@
                     <li><a href="#ACCESS">ACCESS</a></li>
                     <li><a href="#CONTACT">CONTACT</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
+
+        <!-- ハンバーガーメニュー -->
+        <!-- <section>
+            <img src="img/ハンバーガーメニュー用イラスト.png" alt="ハンバーガーメニュー用イラスト" class="little_cheese">
+        </section> -->
+        
     </header>
 
-    <section id="top">
-        <div class="main box">
+    <div id="top">
+        <!-- <div class="main box">
             <h1>セカイを変えるチーズを作ろう</h1>
             <p>チーズ職人養成学校「チーズアカデミーFUKUOKA」</p>
+        </div> -->
+
+        <div class="main box" tabIndex="0">
+            <div class="main-inner box">
+                <div class="main-front box">
+                    <h1>セカイを変えるチーズを作ろう</h1>
+                    <p>チーズ職人養成学校「チーズアカデミーFUKUOKA」</p>
+                </div>
+                <div class="main-back box">
+                    <h1>セカイを変えるチーズを作ろう</h1>
+                    <p>チーズ職人養成学校「チーズアカデミーFUKUOKA」</p>
+                </div>
+            </div>
         </div>
-    </section><!-- page_top -->
+
+        <!-- <div class="flip-card" tabIndex="0">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <h3>Hover, please!</h3>
+                </div>
+                <div class="flip-card-back">
+                    <h3>Whoaaa!!!</h3>
+                </div>
+            </div>
+        </div> -->
+        
+
+    </div><!-- page_top -->
 
     <section id="ABOUT" class="box">
         <h2 class="title_yellow">ABOUT</h2>
@@ -65,26 +106,25 @@
     </section><!-- ABOUT -->
 
     <div class="photo_Gallery">
-        <ul class="sledeshow">
-            <li><img src="img/about_01.jpg" alt="phto1" class="slede_photo"></li>
-            <li><img src="img/about_02.jpg" alt="phto2" class="slede_photo"></li>
-            <li><img src="img/about_03.jpg" alt="phto3" class="slede_photo"></li>
-            <li><img src="img/about_04.jpg" alt="phto4" class="slede_photo"></li>
+        <ul class="slideshow">
+            <li class="content"><img src="img/about_01.jpg" alt="" class="slide_photo"></li>
+            <li class="content"><img src="img/about_02.jpg" alt="" class="slide_photo"></li>
+            <li class="content"><img src="img/about_03.jpg" alt="" class="slide_photo"></li>
+            <li class="content"><img src="img/about_04.jpg" alt="" class="slide_photo"></li>
         </ul>
-        <ul class="sledeshow">
-            <li><img src="img/pagetop_jerry.png" alt="phto1" class="slede_photo"></li>
-            <li><img src="img/tom_and_jerry_PNG68.png" alt="phto2" class="slede_photo"></li>
-            <li><img src="img/ねず.jpg" alt="phto3" class="slede_photo"></li>
-            <li><img src="img/6cab212d.jpg" alt="phto4" class="slede_photo"></li>
+        <ul class="slideshow">
+            <li class="content"><img src="img/about_01.jpg" alt="" class="slide_photo"></li>
+            <li class="content"><img src="img/about_02.jpg" alt="" class="slide_photo"></li>
+            <li class="content"><img src="img/about_03.jpg" alt="" class="slide_photo"></li>
+            <li class="content"><img src="img/about_04.jpg" alt="" class="slide_photo"></li>
         </ul>
-        <ul class="sledeshow">
-            <li><img src="img/about_01.jpg" alt="phto1" class="slede_photo"></li>
-            <li><img src="img/about_02.jpg" alt="phto2" class="slede_photo"></li>
-            <li><img src="img/about_03.jpg" alt="phto3" class="slede_photo"></li>
-            <li><img src="img/about_04.jpg" alt="phto4" class="slede_photo"></li>
+        <ul class="slideshow">
+            <li class="content"><img src="img/about_01.jpg" alt="" class="slide_photo"></li>
+            <li class="content"><img src="img/about_02.jpg" alt="" class="slide_photo"></li>
+            <li class="content"><img src="img/about_03.jpg" alt="" class="slide_photo"></li>
+            <li class="content"><img src="img/about_04.jpg" alt="" class="slide_photo"></li>
         </ul>
     </div>
-
 
 
     <section id="COURSE" class="box">
@@ -93,50 +133,60 @@
         <p>現役チーズ職人のアドバイスのもと，作られました．</p>
     </section><!-- COURSE -->
 
-    <div id="concept" class="concept box_wrap">
-        <div class="concept_half">
-            <img src="img/course_01.jpg" alt="consept1">
-        </div>
-        <div class="concept_half  box_wrap">
-            <div class="half">
-                <p class="concept_title">本格的な農園を使った実地研修</p>
-                <p>
-                    チーズアカデミーでは，本格的な農園を使った実地研修を<br>
-                    行うことができます．プロとして活躍するチーズ職人も<br>
-                    使用するような，広大で環境も整った農園を余すところ<br>
-                    なく使い，卒業時には本格的なチーズを自分の力で作れる<br>
-                    実践力の養成を目指します．
-                </p>
+    <div id="concept">
+        <div class="box_wrap">
+            <div class="concept_half">
+                <img src="img/course_01.jpg" alt="consept1">
+            </div>
+            <div class="concept_half  box_wrap">
+                <div class="half">
+                    <p class="concept_title">本格的な農園を使った実地研修</p>
+                    <p>
+                        チーズアカデミーでは，本格的な農園を使った実地研修を<br>
+                        行うことができます．プロとして活躍するチーズ職人も<br>
+                        使用するような，広大で環境も整った農園を余すところ<br>
+                        なく使い，卒業時には本格的なチーズを自分の力で作れる<br>
+                        実践力の養成を目指します．
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="concept_half box_wrap">
-            <div class="half">
-                <p class="concept_title">必要な知識もしっかりと取得</p>
-                <p>
-                    チーズ作りには，しっかりとした食に関する知識が<br>
-                    欠かせません．チーズアカデミーでは，一流講師陣による，<br>
-                    チーズ作りに必要ないろはを余すところなく学べます．<br>
-                    チーズそのものでなく，栄養学全般を学ぶことも<br>
-                    可能ですので，チーズ以外への展開も夢ではないでしょう．
-                </p>
+        <div class="concept2 box_wrap">
+            <div class="concept_half box_wrap">
+                <div class="half">
+                    <p class="concept_title">必要な知識もしっかりと取得</p>
+                    <p>
+                        チーズ作りには，しっかりとした食に関する知識が<br>
+                        欠かせません．チーズアカデミーでは，一流講師陣による，<br>
+                        チーズ作りに必要ないろはを余すところなく学べます．<br>
+                        チーズそのものでなく，栄養学全般を学ぶことも<br>
+                        可能ですので，チーズ以外への展開も夢ではないでしょう．
+                    </p>
+                </div>
+            </div>
+    
+            <div class="concept_half">
+                <img src="img/course_02.jpg" alt="consept2">
             </div>
         </div>
 
-        <img src="img/course_02.jpg" alt="consept2" class="concept_half">
-
-        <img src="img/course_03.jpg" alt="consept3" class="concept_half">
-
-        <div class="concept_half box_wrap">
-            <div class="half">
-                <p class="concept_title">卒業制作はティスティング審査あり</p>
-                <p>
-                    チーズアカデミーでは最後の2ヶ月間で卒業制作を実施．<br>
-                    卒業制作として，チーズ作りを実際に行います．卒業後，<br>
-                    一般参加によるティスティング審査があるため，作り手の<br>
-                    目線だけでなく，消費者の目線から，卒業制作作品としての<br>
-                    チーズを，しっかりと評価いただくことができます．
-                </p>
+        <div class="box_wrap">
+            <div class="concept_half">
+                <img src="img/course_03.jpg" alt="consept2">
+            </div>
+            
+            <div class="concept_half box_wrap">
+                <div class="half">
+                    <p class="concept_title">卒業制作はティスティング審査あり</p>
+                    <p>
+                        チーズアカデミーでは最後の2ヶ月間で卒業制作を実施．<br>
+                        卒業制作として，チーズ作りを実際に行います．卒業後，<br>
+                        一般参加によるティスティング審査があるため，作り手の<br>
+                        目線だけでなく，消費者の目線から，卒業制作作品としての<br>
+                        チーズを，しっかりと評価いただくことができます．
+                    </p>
+                </div>
             </div>
         </div>
     </div><!-- concept -->
@@ -257,7 +307,7 @@
         <p>間違っても問い合わせしないようお願いいたします．</p>
 
         <div class="form box">
-            <form action="" method="post">
+            <form action="#" method="post">
                 <table class="form_table">
                     <!-- label for=idにする labelをクリックすると入力項目が選択できる -->
                     <tr>
@@ -339,7 +389,10 @@
     <footer class="box">
         <small>copyrights 2016-2018 Cheeese Academy Fukuoka All RIghts Reserved.</small>
     </footer>
-<!-- テスト -->
+
+    <!-- ハンバーガーメニュー
+    <script src=".app.js"></script> -->
+
 </body>
 
 </html>
