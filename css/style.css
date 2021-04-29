@@ -10,7 +10,6 @@ body{
 	width: 960px;
 }
 
-
 /*　パディングをサイズ内側にする処理　*/
 * {
 	padding:0;
@@ -25,11 +24,6 @@ body{
 /*ーーーーーーーーーーー*/
 /*この下から記述*/
 /*ーーーーーーーーーーー*/
-
-
-
-
-
 /*どの部分のcssに対して
 命令をしているのかコメントを
 記載しよう！
@@ -107,16 +101,9 @@ header {
 .list li:hover {
 	background-color: #ffd61a;
 }
+
 /*top
 ---------------------*/
-/* .main {
-	background: url(../img/チーズイラストtop用612x612.jpg);
-	background-size: cover;
-	background-position: center top;
-	min-height: 100vh;
-	color: white;
-	text-align: center;
-} */
 .main {
   background-color: transparent;
 	background-size: cover;
@@ -124,12 +111,7 @@ header {
 	min-height: 100vh;
 	color: white;
 	text-align: center;
-
-  /* width: 300px;
-  height: 300px; */
-  /* perspective: 1000px; */
 }
-
 .main-inner {
   position: relative;
   width: 100%;
@@ -139,16 +121,13 @@ header {
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
 .main:focus {
     outline: 0;
 }
-
 .main:hover .main-inner,
 .main:focus .main-inner{
   transform: rotateY(180deg);
 }
-
 .main-front,
 .main-back {
   position: absolute;
@@ -156,7 +135,6 @@ header {
   height: 100%;
   backface-visibility: hidden;
 }
-
 .main-front {
 	background: url("https://github.com/nikoniko7zzz/cheese_academy/blob/master/%E3%83%81%E3%83%BC%E3%82%BA%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88top%E7%94%A8612x612.jpg?raw=true");
   z-index: 2;
@@ -168,7 +146,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 .main-back {
 	background: url("https://github.com/nikoniko7zzz/cheese_academy/blob/master/%E3%83%81%E3%83%BC%E3%82%BA%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88top%E7%94%A82.jpg?raw=true");
   transform: rotateY(180deg);
@@ -181,9 +158,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-
-
-
 #top h1 {
 	font-size: 55px;
 	font-weight: bold;
@@ -252,8 +226,6 @@ header {
 .row {
 	margin-bottom: 40px;
 }
-
-
 /*/*photo_Gallery
 ---------------------*/
 .content {
@@ -274,7 +246,6 @@ header {
 	overflow: hidden;
 	height: 160px;
 }
-
 @keyframes loop-slide {
 	fron {
 		transform: translateX(0);
@@ -398,7 +369,6 @@ textarea {
 	margin:50PX 0 100px;
 }
 
-
 /*sns_icon
 ---------------------*/
 .sns_icon {
@@ -414,8 +384,8 @@ footer {
 	color:white;
 	padding:15px 0;
 }
-
-
+/*ここからスマホ
+--------------------------------------------------------------------*/
 @media screen and (max-width: 640px) {
 	body {
 		font-size: 16px;
@@ -435,15 +405,6 @@ footer {
 	---------------------*/
 	header {
 		width: 640px;
-		/* height: 65px; */
-		/* 
-		display: flex;
-		justify-content: space-between;
-		position: fixed;
-		z-index: 99;
-		height:80px;
-		line-height: 80px;
-		background-color: lightgray; */
 	}
 	.logo {
 		width: 140px;
@@ -459,38 +420,13 @@ footer {
 	}
 	.list {
 		display: flex;
-		/* justify-content: space-around; */
 		justify-content: flex-end;
 		font-size:14px;
 	}
 	.list li {
-		/* margin-right:20px; */
-		/* width:90px; */
 		text-align: center;
 		transition: all 0.5s;
 	}
-	/* ハンバーガーメニュー */
-	/* .hamburger_menu_1,.hamburger_menu_2,.hamburger_menu_3 {
-		width: 30px;
-		height: 3px;
-		background-color: #fff;
-		margin:5px;
-		z-index: 99;
-	} */
-	/* .list {
-		position: relative;
-	} */
-	/* .little_cheese {
-		position: absolute;
-		right:5%;
-		top:50%;
-		transform: translate(-5%,-50%);
-		cursor:pointer;
-		z-index:100;
-	} */
-	/* .index {
-		display: none;
-	} */
 	/*top
 	---------------------*/
 	#top h1 {
@@ -532,7 +468,6 @@ footer {
 	}
 	.topic {
 		width: 85%;
-		/* margin:64px 16px 16px; */
 	}
 	#NEWS img {
 		width: 100%;
@@ -600,7 +535,6 @@ footer {
 		justify-content: space-around;
 		flex-direction: row;
 		padding-bottom: 20px;
-
 	}
 	/*footer
 	---------------------*/
