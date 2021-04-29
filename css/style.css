@@ -158,7 +158,7 @@ header {
 }
 
 .main-front {
-	background: url(../チーズイラストtop用612x612.jpg);
+	background: url(https://github.com/nikoniko7zzz/cheese_academy/blob/master/%E3%83%81%E3%83%BC%E3%82%BA%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88top%E7%94%A82.jpg);
   z-index: 2;
 	background-size: cover;
 	background-position: center top;
@@ -170,7 +170,7 @@ header {
 }
 
 .main-back {
-	background: url(../チーズイラストtop用2.jpg);
+	background: url(https://github.com/nikoniko7zzz/cheese_academy/blob/master/%E3%83%81%E3%83%BC%E3%82%BA%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88top%E7%94%A8612x612.jpg);
   transform: rotateY(180deg);
   z-index: 1;
 	background-size: cover;
